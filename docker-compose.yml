@@ -3,13 +3,13 @@ services:
   postgresql:
     image: postgres:latest
     ports:
-      - '8080:8080'
+      - '5432:5432'
     volumes:
       - ./data:/var/lib/postgres/data
     environment:
       - POSTGRES_DATABASE=app
       - POSTGRES_USER=app
-      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_PASSWORD=9mREsvXDs9Gk89Ef
 
 volumes:
   data:
